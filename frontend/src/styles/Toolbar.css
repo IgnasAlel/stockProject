@@ -1,0 +1,50 @@
+.company-input {
+  padding: 10px 5px;
+  width: 60%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+
+.toolbar-container {
+  width: 100%;
+  padding: 20px 5px;
+  text-align: center;
+  border-bottom: 3px solid gray;
+}
+
+.input-wrapper {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (min-width: 768px) {
+  .input-wrapper {
+    width: 50%;
+  }
+}
+
+.search-button {
+  background-color: black;
+  color: white;
+  padding: 10px 5px;
+  width: 30%;
+  cursor: pointer;
+}
+
+.datepicker-wrapper {
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-evenly;
+}
+@media (min-width: 768px) {
+  .datepicker-wrapper {
+    width: 50%;
+  }
+}
+
+.error {
+  color: red;
+}
+
+/*# sourceMappingURL=Toolbar.css.map */
