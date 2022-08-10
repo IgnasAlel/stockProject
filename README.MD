@@ -4,7 +4,7 @@ Company search input accepts only company stock ***TICKER***.
 Complete list of all companies stock tickers can be found here: https://stockanalysis.com/stocks/
 
 To use application:
-* For NodeJS application in backend folder there needs to be .env file with 2 variables : API_KEY (to connect with "Finnhub" API) and MONGODB_KEY (for connection with MongoDB database)
+* For NodeJS application in backend folder there needs to be .env file with 2 variables : API_KEY=your_api_key (to connect with "Finnhub" API) and MONGODB_KEY=your_username:your_password (for connection with MongoDB database)
 * For NodeJS and ReactJS applications in terminal run 'npm install' to install node modules
 * For ReactJS in terminal run 'npm start' and react application should start
 * For NodeJS application in terminal run 'nodemon app' and node application should start
